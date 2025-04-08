@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Medical</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <img src="/logo.PNG" alt="Ruby Medical ">
+                
+            </div>
+            <div class="location-search">
+                <span>jagjivan pura,fatehabad</span>
+                <input type="text" placeholder="Search for medicine & wellness products...">
+            </div>
+            <div class="user-cart">
+                <a href="#">Sign in / Sign</a>
+                <a href="#" class="cart">Cart (0)</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="nav-menu">
+        <a href="#">Medicine</a>
+        <a href="#">Wellness</a>
+        <a href="#">Lab Tests</a>
+        <a href="#">Beauty</a>
+        <a href="#">Health Corner</a>
+    </nav>
+
+    <!-- Promo Section -->
+     <div class="mas">
+        
+     </div>
+    <section class="promo">
+        <div class="membership-container">
+            <div class="membership-info">
+                <img src="/logo.PNG" alt="Ruby Medical Membership Logo" class="membership-logo">
+                <div class="membership-text">
+                    <h3>Ruby Medical First Membership</h3>
+                    <p>Get special discounts and offers on Ruby Medical services.</p>
+                    <p>Get 2% RM Cash on all orders.</p>
+                    <p>Get unlimited free delivery.</p>
+                </div>
+            </div>
+            <div class="membership-plan">
+                <span>⚡ Starting at ₹99</span>
+                <button class="explore-plans">Explore Plans</button>
+            </div>
+        </div>
+        
+        </div>
+    </section>
+
+    <section class="top-banner">
+        <div class="banner-wrapper">
+            <img src="/1710826345_Mini_web.jpg" alt="Derma Cosmetics" class="banner-img">
+        </div>
+        <div class="banner-wrapper">
+            <img src="/viamin.jpg" alt="Vitamin Store" class="banner-img">
+        </div>
+    </section>
+
+    <!-- Product Carousel Section -->
+    <section class="product-carousel">
+        <h2>Limited Time Deals</h2>
+        <div class="carousel">
+            <!-- Each product card -->
+            <div class="product-card">
+                <img src="/vicks_vaporub_5_ml_0.jpg" alt="Product 1">
+                <h3>Vicks Vaporub 50ml</h3>
+                <p>Best Price: ₹123.45</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="/vicks_baby_rub_25_ml_56291_0_1.jpg" alt="Product 2">
+                <h3>Vicks Baby Rub 25ml</h3>
+                <p>Best Price: ₹112.34</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="/volini_spray_100gm_46243_0_2.jpg" alt="Product 3">
+                <h3>Volini Spray 100gm</h3>
+                <p>Best Price: ₹299.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="/la_shield_lite_spf_50_pa_sunscreen_gel_50_gm_410035_0_1.jpg" alt="Product 4">
+                <h3>La Shield SPF</h3>
+                <p>Best Price: ₹850.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="/vitamins_and_supplements_4.jpeg" alt="Vitamins">
+                <h3>Vitamins</h3>
+            </div>
+            <div class="category-card">
+                <img src="/shampoos.png" alt="Shampoos">
+                <h3>Shampoos</h3>
+            </div>
+            <div class="category-card">
+                <img src="/orthopaedics.png" alt="Orthopaedics">
+                <h3>Orthopaedics</h3>
+            </div>
+            <div class="category-card">
+                <img src="/feminine_hygiene_2.jpeg" alt="Feminine Hygiene">
+                <h3>Feminine Hygiene</h3>
+            </div>
+            <div class="category-card">
+                <img src="/ayurvedic.png" alt="Ayurvedic">
+                <h3>Ayurvedic</h3>
+            </div>
+            <div class="category-card">
+                <img src="/face_wash_cleansers.png" alt="Face Wash & Cleansers">
+                <h3>Face Wash & Cleansers</h3>
+            </div>
+            <div class="category-card">
+                <img src="/creams_oils_lotions.png" alt="Creams/Oils/Lotions">
+                <h3>Creams/Oils/Lotions</h3>
+            </div>
+            <div class="category-card">
+                <img src="/skin_care.png" alt="Skin Care">
+                <h3>Skin Care</h3>
+            </div>
+            <div class="category-card">
+                <img src="/mens_grooming.png" alt="Men's Grooming">
+                <h3>Men's Grooming</h3>
+            </div>
+            <div class="category-card">
+                <img src="/fitness.png" alt="Fitness Sale">
+                <h3>Fitness Sale</h3>
+            </div>
+        </div>
+    </section>
+   
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="/logo.PNG" alt="Ruby Medical Logo">
+                <p>Ruby Medical is one of India's most trusted pharmacies, dispensing quality medicines at reasonable prices to over 9 million happy customers – PAN India.</p>
+            </div>
+
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>COMPANY</h3>
+                    <ul>
+                        <li><a href="#">About Ruby Medical</a></li>
+                        <li><a href="#">Customers Speak</a></li>
+                        <li><a href="#">In the News</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>SHOPPING</h3>
+                    <ul>
+                        <li><a href="#">Browse by Manufacturers</a></li>
+                        <li><a href="#">Health Articles</a></li>
+                        <li><a href="#">Offers / Coupons</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>BUSINESS</h3>
+                    <ul>
+                        <li><a href="#">Franchise</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>CATEGORIES</h3>
+                    <ul>
+                        <li><a href="#">Ayush</a></li>
+                        <li><a href="#">Devices</a></li>
+                        <li><a href="#">Family Care</a></li>
+                        <li><a href="#">Fitness</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Personal Care</a></li>
+                        <li><a href="#">Treatments</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>SOCIAL</h3>
+                    <ul>
+                        <li><a href="#">Patients Alike</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">Refer & Earn</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column newsletter">
+                    <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                    <p>Get a free subscription to our health and fitness tips and stay tuned to our latest offers</p>
+                    <form action="#">
+                        <input type="email" placeholder="Enter your email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <div class="store-icons">
+                        <img src="/play_store.png" alt="Google Play">
+                        <img src="/app_store.png" alt="App Store">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
